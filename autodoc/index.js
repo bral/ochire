@@ -30,7 +30,9 @@
    * @public
    * @example
    * Reversal.reverseRecursive([1,2,3,4]) // => [4,3,2,1]
-   * Reversal.reverseRecursive([{'a': '1'}, 'b', 3]) // => [3, 'b', {'a': '1'}]
+   * @benchmarks
+   * Reversal.reverseRecursive([1,2,3,4]) // => Recursive
+   * Reversal.reverseIterative([1,2,3,4]) // => Iterative
    */
   Reversal.reverseRecursive = function(arr, i, result) {
     // variable define
